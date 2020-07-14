@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My first website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    
+    <!-- Header - obejmie wszystkie pozostałe elementy w tej secji - 100% szerokości -->
+        <header class="splash">
+        
+            <!-- div ten odpowiada za wycentrowanie treści w pionie oraz poziomie -->
+            <div class="splash-inner">
+            
+                <!-- div ten odpowiada za  ograniczeniem szerokości treści -->
+                <div class="container">
+                    <i class="fas fa-meteor"></i>
+                    <h1 class="page-title">Hi, I'm Matthew <span class="blink">I</span></h1>
+                    <h2 class="page-subtitle">CEO of MeteOrCode</h2>
+                </div>
+            </div>
+        </header>
+
+        <section class="intro">
+            <div class="container">
+                <p>Programming leads to thoughts, thoughts lead to feelings. <br>Feelings lead to actions, actions lead to results.</p>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2 class="section-title">MeteOrCode</h2>
+                <p>Many companies have already trusted us, we stand behind their success and 
+                support in every process of company identification.
+                <br>Your success is our success.</p>
+                
+                <p>We provide modern IT solutions and the highest quality of services. 
+                Our experienced team will make your company recognizable. 
+                We will create for you a modern brand image recognized in all Social Media.</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="container">
+                <h2 class="section-title">What we do</h2>
+                <ul>
+                    <li class="skill left">
+                        <div class="skill-image">
+                            <img src="https://i.postimg.cc/s2WGMCtQ/apple-computer-decor-design-326502.jpg" alt="Image Design">
+                        </div>
+                        <div class="skill-description">
+                            <h3 class="skill-title"><span class="skill-line">I</span> Design</h3>
+                            <p>The first step is to design several projects and present them to you. 
+                            <br>You make the final choice in which direction we will measure in the <br> next steps.</p>
+                        </div>
+                    </li>
+                    <li class="skill right">
+                        <div class="skill-image">
+                            <img src="https://i.postimg.cc/YC91qVrY/person-using-silver-macbook-pro-1181467.jpg" alt="Image Code">
+                        </div>
+                        <div class="skill-description">
+                            <h3 class="skill-title"><span class="skill-line">I</span> Code</h3>
+                            <p>Once the project is approved, the development team will encode your application. You will participate 
+                            in this process and provide your comments. We are at your disposal all the time.</p>
+                        </div>
+                    </li>
+                    <li class="skill left">
+                        <div class="skill-image">
+                            <img src="https://i.postimg.cc/bwstjtgR/people-coffee-meeting-team-7096.jpg" alt="Image Schooling">
+                        </div>
+                        <div class="skill-description">
+                            <h3 class="skill-title"><span class="skill-line">I</span> Schooling</h3>
+                            <p>In this step, our training team will conduct training of your employees in the operation of the tools we created. 
+                            On-line training and the delegation of our specialists is possible.</p>
+                        </div>
+                    </li>
+                    <li class="skill right">
+                        <div class="skill-image">
+                            <img src="https://i.postimg.cc/hGrFKfp2/person-holding-blue-ballpoint-pen-on-white-notebook-669610.jpg" alt="Image Marketing">
+                        </div>
+                        <div class="skill-description">
+                            <h3 class="skill-title"><span class="skill-line">I</span> Marketing</h3>
+                            <p>The last step is the creation of an advertising campaign by our marketing team. Your site will start to be recognized in every corner of the network. 
+                            Our team will stay in touch with you if needed.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    <section class="portfolio">
+            <div>
+                <h3 class="section-title">Portfolio</h3>
+            </div>
+            <ul class="row">
+                <li class=>
+                    <div class="image-portfolio">
+                        <img src="https://i.postimg.cc/yxsp5qJg/abstract-black-and-white-dark-design-230659.jpg" alt="Image portfolio">
+                    </div>
+                </li>
+                <li>
+                    <div class="image-portfolio">
+                        <img src="https://i.postimg.cc/XYf3BWwm/aerial-photo-of-black-spiral-staircase-929280.jpg" alt="Image portfolio">
+                    </div>
+                </li>
+                <li>
+                    <div class="image-portfolio">
+                        <img src="https://i.postimg.cc/XJbXTxnB/silver-imac-displaying-collage-photos-1779487.jpg" alt="Image portfolio">
+                    </div>
+                </li>
+                <li>
+                    <div class="image-portfolio">
+                        <img src="https://i.postimg.cc/kXt79KDn/adobe-premier-application-screengrab-1188751.jpg" alt="Image portfolio">
+                    </div>
+                </li>
+                <li>
+                    <div class="image-portfolio">
+                        <img src="https://i.postimg.cc/xC4SV12J/person-holding-black-dslr-camera-1051544.jpg" alt="Image portfolio">
+                    </div>
+                </li>
+                <li>
+                    <div class="image-portfolio">
+                        <img src="https://i.postimg.cc/s1Fd1H13/side-view-of-woman-in-illuminated-city-at-night-315191.jpg" alt="Image portfolio">
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <h4 class="section-title">Contact</h4>
+                <form>
+                    <input type="text" name="username" class="input" placeholder="Your name"> <br>
+                    <input type="text" name="email" class="input" placeholder="Your e-mail"> <br>
+                    <input type="text" name="subject" class="input" placeholder="Subject"> <br>
+                    <textarea type="text" placeholder="Describe yourself here" class="area"></textarea> <br>
+                    <button class="button">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="page-footer">
+            <div class="container i">
+                <i class="fab fa-github-square"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-facebook-messenger"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-app-store"></i>
+            </div>
+        </footer>
+        
+    </body>
+</html>

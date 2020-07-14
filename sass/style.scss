@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Darker+Grotesque&family=Quicksand&family=Rajdhani&display=swap');
+
+/* Variables */
+
+$color-main: #8e44ad;
+$color-dark: #2c3e50;
+
+$font-menu: 'Advent Pro', sans-serif;
+$font-text: 'Darker Grotesque', sans-serif;
+$font: 'Quicksand', sans-serif;
+
+/* Global */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-text;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* Splash */
+
+.splash {
+    height: 100vh;
+    position: relative;
+    background-image: url('https://i.postimg.cc/85Znpxnb/C1-C0827-A-8498-49-E8-BBBD-0397-A9-B0-C265-1-105-c.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-title {
+    position: relative;
+}
