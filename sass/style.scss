@@ -269,3 +269,68 @@ ul {
     display: flex;
     flex-wrap: wrap;
 }
+
+
+/* Contact */
+
+.contact {
+    background-image: url('https://i.postimg.cc/nrxSwYPy/sky-space-milky-way-stars-110854.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.contact .section-title {
+    opacity: 0.8;
+    padding-top: 30px;
+}
+
+.wrapper-form form {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+input::placeholder, ::placeholder{
+    font-family: $font-menu;
+    color: #fff;
+}
+
+.input {
+    background: rgba(0, 0, 0, 0.001);
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    outline: none;
+    color: #fff;
+}
+
+.area {
+    background: rgba(0, 0, 0, 0.001);
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-top: 11px;
+    max-width: 500px;
+    height: 170px;
+    padding: 10px 10px;
+    outline: none;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 130px;
+    height: 50px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.001);
+    border: none;
+    outline: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
