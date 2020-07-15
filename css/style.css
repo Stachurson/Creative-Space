@@ -343,4 +343,18 @@ input::placeholder, ::placeholder {
   background-position: 0 100%;
   cursor: pointer;
 }
+
+/* Footer */
+.container-social {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container-social i {
+  font-size: 80px;
+  padding: 25px 0;
+}
 /*# sourceMappingURL=style.css.map */

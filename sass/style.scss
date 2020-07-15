@@ -344,3 +344,18 @@ input::placeholder, ::placeholder{
     cursor: pointer;
 }
 
+
+/* Footer */
+
+.container-social {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.container-social i {
+    font-size: 80px;
+    padding: 25px 0;
+}
+
+
