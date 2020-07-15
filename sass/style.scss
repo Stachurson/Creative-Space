@@ -107,6 +107,7 @@ body {
     transition: all 1.5s;
     background-position: 100% 0;
     background-size: 300%;
+    margin-top: 30px;
 }
 
 .btn:hover {
@@ -332,5 +333,14 @@ input::placeholder, ::placeholder{
     color: #fff;
     border: 1px solid #fff;
     border-radius: 5px;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, .4) 40%, transparent 80%);
+    transition: all 1.5s;
+    background-position: 100% 0;
+    background-size: 300%;
+}
+
+.button:hover {
+    background-position: 0 100%;
+    cursor: pointer;
 }
 
