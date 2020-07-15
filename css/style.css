@@ -11,6 +11,7 @@ body {
   padding: 0;
   font-family: "Darker Grotesque", sans-serif;
   line-height: 1.7;
+  cursor: default;
 }
 
 .container {
@@ -42,26 +43,53 @@ body {
 
 .container {
   margin: auto;
+  display: -ms-flexbox;
+  display: flex;
+  /* Wyśrodkowuje el. w kontenerze ( względem siebie również ) */
+  -ms-flex-direction: column;
+      flex-direction: column;
+  /* Tak jak komentarz wyżej */
 }
 
 .page-title {
   color: white;
-  font-family: "Advent Pro", sans-serif;
+  font-family: "Quicksand", sans-serif;
   text-align: center;
   font-weight: bold;
   font-size: 100px;
   margin-bottom: -20px;
-  margin-top: -100px;
+  margin-top: -30px;
   opacity: 0.8;
 }
 
 .page-subtitle {
   text-align: center;
   font-family: "Advent Pro", sans-serif;
-  font-size: 25px;
-  margin-top: -20px;
+  font-size: 27px;
+  margin-top: 0;
   color: #fff;
   opacity: 0.8;
+  position: relative;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin: auto;
+  /* Szerokość przycisku zostaje ograniczona z szerokości kontenera */
+  padding: 13px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  opacity: 0.7;
+  font-family: "Quicksand", sans-serif;
+}
+
+.btn:hover {
+  opacity: 0.9;
 }
 
 /* Navigation */
