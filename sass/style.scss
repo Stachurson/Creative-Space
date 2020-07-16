@@ -275,7 +275,7 @@ ul {
 /* Contact */
 
 .contact {
-    background-image: url('https://i.postimg.cc/nrxSwYPy/sky-space-milky-way-stars-110854.jpg');
+    background-image: url('https://i.postimg.cc/26hfMPsc/sky-space-milky-way-stars-110854-1.jpg');
     background-position: center center;
     background-size: cover;
     height: 100vh;
@@ -317,7 +317,8 @@ input::placeholder, ::placeholder{
     border-bottom: 1px solid #fff;
     margin-top: 11px;
     max-width: 500px;
-    height: 170px;
+    min-height: 170px;
+    max-height: 200px;
     padding: 10px 10px;
     outline: none;
     color: #fff;
@@ -355,9 +356,9 @@ input::placeholder, ::placeholder{
 }
 
 .container-social i {
-    font-size: 80px;
+    font-size: 40px;
     padding: 0;
-    margin: 22px 0;
+    margin: 12px 0;
     cursor: pointer;
 }
 
