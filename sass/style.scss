@@ -250,7 +250,7 @@ ul {
 }
 
 .image-portfolio {
-    height: 420px;
+    max-height: 420px;
     overflow: hidden;
     flex: 0 0 25%;
 }
@@ -360,6 +360,60 @@ input::placeholder, ::placeholder{
     padding: 0;
     margin: 12px 0;
     cursor: pointer;
+}
+
+
+/* Media */
+
+@media (max-width: 767px){
+
+    /* Global */
+    .section-title {
+        font-size: 55px;
+        text-align: center;
+        letter-spacing: 1px;
+        margin-top: 80px;
+        margin-bottom: 70px;
+    }
+
+    /* Services */
+    .wrapper {
+        margin-top: -38px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box .fas {
+        font-size: 150px;
+        top: 80px;
+        left: 38%;
+        padding: 0;
+        color:rgba(76, 9, 105, 0.190);
+    }
+
+    .box .fa-laptop-code {
+        left: 35%;
+    }
+
+
+    /* Portfolio */
+    .container-portfolio p {
+        font-size: 15px;
+        margin-top: -25px;
+    }
+
+    .wrapper-image {
+        flex-direction: column;
+    }
+
+    .image-portfolio {
+        height: 220px;
+    }
+    
+    .none {
+        display: none;
+    }
+
 }
 
 
