@@ -92,7 +92,6 @@ body {
 }
 
 .btn {
-    background-image: linear-gradient(45deg, rgba(0, 0, 0, .4) 40%, transparent 80%);
     display: inline-block;
     margin: auto;  /* Szerokość przycisku zostaje ograniczona z szerokości kontenera */
     padding: 13px;
@@ -107,10 +106,11 @@ body {
     margin-top: 30px;
 }
 
-.btn.btn-one {
+.btn-one {
     transition: all 1.5s;
     background-position: 100% 0;
     background-size: 300%;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, .4) 40%, transparent 80%);
 }
 
 .btn:hover {
@@ -251,11 +251,17 @@ ul {
     margin-bottom: 60px;
 }
 
+.wrapper-image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .image-portfolio {
-    max-height: 420px;
+    height: 380px;
     overflow: hidden;
     flex: 0 0 25%;
 }
+
 
 .image-portfolio img {
     width: 100%;
@@ -266,11 +272,6 @@ ul {
 
 .image-portfolio img:hover {
     filter: brightness(100%);
-}
-
-.wrapper-image {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 
@@ -399,7 +400,7 @@ input::placeholder, ::placeholder{
 
 
     /* Portfolio */
-    .container-portfolio p {
+    /*.container-portfolio p {
         font-size: 15px;
         margin-top: -25px;
     }
@@ -415,7 +416,8 @@ input::placeholder, ::placeholder{
     .none {
         display: none;
     }
-
+*/
 }
+
 
 
