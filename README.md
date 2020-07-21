@@ -1,0 +1,1 @@
+All texts, including company name, website subject and website, except for the quote, were created by me. All images were downloaded from https://www.pexels.com/, and icons from https://fontawesome.com/
