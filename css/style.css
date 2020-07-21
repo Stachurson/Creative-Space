@@ -271,7 +271,7 @@ ul {
 
 /* Contact */
 .contact {
-  background-image: url("https://i.postimg.cc/26hfMPsc/sky-space-milky-way-stars-110854-1.jpg");
+  background-image: url("https://i.postimg.cc/8kXF2dTx/sky-space-milky-way-stars-110854-2.jpg");
   background-position: center center;
   background-size: cover;
   height: 100vh;
@@ -393,22 +393,19 @@ input::placeholder, ::placeholder {
     left: 35%;
   }
   /* Portfolio */
-  /*.container-portfolio p {
-        font-size: 15px;
-        margin-top: -25px;
-    }
-
-    .wrapper-image {
+  .container-portfolio p {
+    font-size: 15px;
+    margin-top: -25px;
+  }
+  .wrapper-image {
+    -ms-flex-direction: column;
         flex-direction: column;
-    }
-
-    .image-portfolio {
-        height: 220px;
-    }
-    
-    .none {
-        display: none;
-    }
-*/
+  }
+  .image-portfolio {
+    height: 220px;
+  }
+  .none {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
