@@ -104,16 +104,18 @@ body {
     font-size: 18px;
     opacity: 0.8;
     font-family: $font;
+    margin-top: 30px;
+}
+
+.btn.btn-one {
     transition: all 1.5s;
     background-position: 100% 0;
     background-size: 300%;
-    margin-top: 30px;
 }
 
 .btn:hover {
     background-position: 0 100%;
     opacity: 1;
-    
 }
 
 /* Navigation */
